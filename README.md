@@ -1,4 +1,4 @@
-# treemaker
+# TreeMaker
 
 |![program screenshot (placeholder)](./_screenshot/screenshot.png)|
 |---|
@@ -9,5 +9,5 @@ Program procedurally generates two-dimensional trees via seeded pseudorandom num
 
 ## Running
 
-Following instructions in the original repo, the Windows build process is generic between Visual Studio (`./build-VisualStudio2022.bat`) and MinGW (`./build-MinGW-W64.bat`). MinGW was used in development.
+Following instructions in the original repo, the Windows build process is generic between Visual Studio (`./build-VisualStudio2022.bat`) and MinGW (`./build-MinGW-W64.bat`). Of the two, MinGW was used for development.
 

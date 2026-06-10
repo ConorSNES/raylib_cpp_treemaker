@@ -45,7 +45,7 @@ int main() {
 	// draw_indicator(ROOT.x, ROOT.y);
 
 	// Seed tree algo randomness and draw branching.
-	draw_branching(ROOT, mt19937(seed));
+	treemaker::draw_branching(ROOT, mt19937(seed));
 
 	DrawText("Treemaker", 20, 20, 20, GRAY);
 	DrawText(TextFormat("Current seed is: %i", seed), 20, HEIGHT - 80, 20,
